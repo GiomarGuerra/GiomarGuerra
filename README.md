@@ -1,3 +1,4 @@
+![Marck - Data Architect Banner](./.github/images/marck-banner.png)
 ## Hi there 👋
 
 <!--
