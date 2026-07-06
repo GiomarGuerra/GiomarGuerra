@@ -1,0 +1,52 @@
+<svg width="1280" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E293B;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Grid pattern for architecture feel -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="1" opacity="0.3"/>
+    </pattern>
+  </defs>
+  
+  <!-- Base background -->
+  <rect width="1280" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Grid pattern overlay -->
+  <rect width="1280" height="400" fill="url(#grid)"/>
+  
+  <!-- Accent line top -->
+  <rect width="1280" height="3" fill="#10B981"/>
+  
+  <!-- Main title -->
+  <text x="80" y="140" font-family="Passero One, Arial, sans-serif" font-size="72" font-weight="bold" fill="#FFFFFF">
+    Marck
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="80" y="200" font-family="Source Code Pro, monospace" font-size="28" fill="#10B981">
+    Data Architect
+  </text>
+  
+  <!-- Tagline -->
+  <text x="80" y="250" font-family="Source Code Pro, monospace" font-size="18" fill="#CBD5E1">
+    Building scalable data systems • PySpark • SQL • Cloud Architecture
+  </text>
+  
+  <!-- Decorative tech icons (simple) -->
+  <!-- Data/pipeline icon -->
+  <g opacity="0.6">
+    <circle cx="1100" cy="100" r="30" fill="none" stroke="#10B981" stroke-width="2"/>
+    <circle cx="1180" cy="100" r="30" fill="none" stroke="#3B82F6" stroke-width="2"/>
+    <line x1="1130" y1="100" x2="1150" y2="100" stroke="#10B981" stroke-width="2"/>
+  </g>
+  
+  <!-- Small accent shapes -->
+  <rect x="50" y="320" width="200" height="2" fill="#10B981" opacity="0.8"/>
+  
+  <!-- Bottom right accent -->
+  <circle cx="1200" cy="350" r="25" fill="none" stroke="#3B82F6" stroke-width="2" opacity="0.4"/>
+</svg>
