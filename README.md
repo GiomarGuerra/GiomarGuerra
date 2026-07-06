@@ -98,38 +98,47 @@ Cloud              ████████░░░░░░░░░░░░
 
 <td width="50%" valign="top">
 
-### 🚀 Big Data Pipeline
+### 🚀 Featured Projects
 
-End-to-end academic project focused on designing a scalable data architecture.
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+### 📈 Crypto Dashboard
+
+> Interactive dashboard for cryptocurrency market analysis.
+
+Built with Python and Streamlit, consuming real-time data from a REST API to visualize cryptocurrency metrics.
 
 ```text
-✔ ETL Pipeline
-✔ Star Schema
-✔ PySpark
-✔ PostgreSQL
-✔ Power BI
+Tech Stack → Python · Streamlit
+API        → REST API
+Output     → Interactive Dashboard
 ```
 
-[![View Repository](https://img.shields.io/badge/→%20View%20Repository-0F172A?style=for-the-badge&logo=github&logoColor=10B981)](https://github.com/GiomarGuerra/TU-REPO)
+[![View Repository](https://img.shields.io/badge/→%20View%20Repository-0F172A?style=for-the-badge&logo=github&logoColor=10B981)](https://github.com/GiomarGuerra/crypto-dashboard)
 
 </td>
 
 <td width="50%" valign="top">
 
-### 🤖 StudyBrain
+### 🚧 Big Data Pipeline
 
-Architecture proposal for an AI educational platform.
+> Currently under development.
+
+This project will showcase a complete Big Data architecture including ETL, PySpark, dimensional modeling and Power BI.
 
 ```text
-✔ AI Router
-✔ Observability
-✔ Next.js
-✔ Prisma
-✔ Ollama
+Status → In Development
 ```
 
-[![View Repository](https://img.shields.io/badge/→%20View%20Repository-0F172A?style=for-the-badge&logo=github&logoColor=10B981)](https://github.com/GiomarGuerra/TU-REPO)
+🚀 Coming Soon
 
+</td>
+
+</tr>
+</table>
 </td>
 
 </tr>
